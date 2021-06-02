@@ -1,0 +1,18 @@
+Load More Ajax Docs
+https://connekthq.com/plugins/ajax-load-more/docs/parameters/
+https://connekthq.com/plugins/ajax-load-more/examples/filtering/
+https://connekthq.com/plugins/ajax-load-more/examples/filtering/multiple-filters/
+https://connekthq.com/plugins/ajax-load-more/examples/
+
+Shortcode Used:
+[ajax_load_more id="filter-pr" container_type="ul" css_classes="press_releases_grid" post_type="press_releases" posts_per_page="5" scroll="false" button_label="Load more Press Releases" no_results_text="<p>Sorry, nothing found!</p>"]
+
+[ajax_load_more id="filter-mc" container_type="ul" css_classes="press_releases_grid" post_type="media_coverage" posts_per_page="5" scroll="false" button_label="Load more Media Articles" no_results_text="<p>Sorry, nothing found!</p>" ]
+
++++++++++++++ ----------------------- +++++++++++++++ ------------------------ +++++++++++++
+
+Custom Shortcodes for Filter Dropdown:
+[filter_by_year id="pr-filter"]
+[filter_by_year id="mc-filter"]
+
+Javascript codes loaded into the `wp_head` action.
